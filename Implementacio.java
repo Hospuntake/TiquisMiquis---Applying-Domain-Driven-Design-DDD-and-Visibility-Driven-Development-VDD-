@@ -167,22 +167,22 @@ public class Implementacio {
         k.respostaPregunta("-1 (me lo he copiado de mi compañero)");
         k.solucioPregunta(0);
         //CREACIO TEST
-        k.DadesTest("47264083A",1,"basico");
+        k.DadesTest("12378397A",1,"basico");
         k.PreguntaTest("Suma0+0");
         k.PreguntaTest("Suma4+4");
         k.FinalCreaTest();
         
-        k.DadesTest("47264083A",2,"basico");
+        k.DadesTest("12378397",2,"basico");
         k.PreguntaTest("Mul0x10");
         k.PreguntaTest("Suma4+4");
         k.FinalCreaTest();
         
-        k.DadesTest("47264083A",3,"basico");
+        k.DadesTest("12378397",3,"basico");
         k.PreguntaTest("Suma2+2");
         k.PreguntaTest("Suma4+4");
         k.FinalCreaTest();
         
-        k.DadesTest("47264083A",4,"basico");
+        k.DadesTest("12378397",4,"basico");
         k.PreguntaTest("Suma2+2");
         k.PreguntaTest("Mul0x10");
         k.FinalCreaTest();
@@ -301,7 +301,7 @@ public class Implementacio {
             
             else if(entrada.equals(creaTest)){
                 System.out.print("Executant creaTest...\n");
-                System.out.print("Introdueix el Numero Identificatiu del Professor(47264083A,12345678A,123)...\n");
+                System.out.print("Introdueix el Numero Identificatiu del Professor(12378397A,12345678A,123)...\n");
                 String IdPro = input.nextLine();
                 while(ProfessorValid(k,IdPro) ){
                     System.out.print("DNI del professor incorrecte... Introdueix el Numero Identificatiu del Professor...\n");
@@ -345,10 +345,10 @@ public class Implementacio {
             else if(entrada.equals(donaPermis)){
                 mostraPermisos(k);
                 System.out.print("Executant donaPermis...\n");
-                System.out.print("Introdueix el Numero Identificatiu del Professor(47264083A,12345678A,123)...\n");
+                System.out.print("Introdueix el Numero Identificatiu del Professor(12378397A,12345678A,123)...\n");
                 String IdPro = input.nextLine();
                 while(ProfessorValid(k,IdPro) ){
-                    System.out.print("DNI del professor incorrecte... Introdueix el Numero Identificatiu del Professor...(47264083A,12345678A,123)\n");
+                    System.out.print("DNI del professor incorrecte... Introdueix el Numero Identificatiu del Professor...(12378397A,12345678A,123)\n");
                     IdPro = input.nextLine(); 
                 }
                 System.out.println("LLista d'IDS dels tests!");
@@ -390,10 +390,10 @@ public class Implementacio {
                     System.out.print("Nom incorrecte... Introdueix el Nom Identificatiu de l'alumne(JoaquimHervas,Gelat,Cristina)...\n");
                     IdEst = input.nextLine(); 
                 }
-                System.out.print("Introdueix el Numero Identificatiu del Professor(47264083A,12345678A,123)...\n");
+                System.out.print("Introdueix el Numero Identificatiu del Professor(12378397A,12345678A,123)...\n");
                 String IdPro = input.nextLine();
                 while(ProfessorValid(k,IdPro) ){
-                    System.out.print("DNI del professor incorrecte... Introdueix el Numero Identificatiu del Professor(47264083A,12345678A,123)...\n");
+                    System.out.print("DNI del professor incorrecte... Introdueix el Numero Identificatiu del Professor(12378397A,12345678A,123)...\n");
                     IdPro = input.nextLine(); 
                 }
                 System.out.println("LLista d'IDS dels tests!");
